@@ -1,0 +1,16 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python main.py",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 300,
+    "restartPolicyType": "ALWAYS"
+  },
+  "environment": {
+    "PORT": "8080",
+    "PYTHONUNBUFFERED": "1",
+    "RAILWAY_DEPLOYMENT": "true"
+  }
+}

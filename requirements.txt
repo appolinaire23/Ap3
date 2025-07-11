@@ -1,0 +1,7 @@
+telethon==1.40.0
+python-dotenv==1.1.1
+psycopg2-binary==2.9.10
+flask==3.1.0
+aiohttp==3.12.0
+requests==2.31.0
+asyncio-mqtt==0.16.2
